@@ -1,6 +1,6 @@
 const Heap = require('heap-js').Heap;
 
-class Dijkstra {
+export class Dijkstra {
     constructor(matrix, startPoint, endPoint) {
         this.matrix = matrix;
         this.startPoint = startPoint;

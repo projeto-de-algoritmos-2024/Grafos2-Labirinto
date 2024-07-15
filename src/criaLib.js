@@ -1,6 +1,6 @@
-const seedrandom = require('seedrandom');
+import seedrandom from 'seedrandom';
 
-class Lab {
+export class Lab {
     constructor(LARGURA = 39, ALTURA = 19) {
         this.LARGURA = LARGURA;
         this.ALTURA = ALTURA;
@@ -108,8 +108,3 @@ class Lab {
         return aux;
     }
 }
-
-// Exemplo de uso:
-const lab = new Lab();
-lab.imprimiLab();
-console.log(lab.toIO());
