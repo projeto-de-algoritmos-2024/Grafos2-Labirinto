@@ -182,7 +182,7 @@ const LabirintoApp = () => {
         >
           {renderLabirinto()}
         </div>
-        <button onMouseDown={findShortestPath} onMouseUp={() => setShortestPath([])}>Segure para encontrar o menor caminho</button>
+        <button style={{ marginTop: "16px"}} onMouseDown={findShortestPath} onMouseUp={() => setShortestPath([])}>Segure para encontrar o menor caminho</button>
       </div>
   );
 };
